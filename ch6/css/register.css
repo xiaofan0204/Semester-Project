@@ -1,0 +1,112 @@
+.topbar {
+    height: 82px;
+    border-bottom: #ccc 1px solid;
+    box-shadow: #ccc 2px 2px 3px 2px;
+}
+
+.topbar .logo {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.topbar .logo p {
+    position: absolute;
+    top: 30px;
+    left: 400px;
+    color: #666666;
+    font-size: 30px;
+}
+
+.topbar .logo img {
+    position: absolute;
+    top: 0;
+    left: -540px;
+    margin-left: 50%;
+    width: 15%;
+}
+
+.topbar .login {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.topbar .login p {
+    position: absolute;
+    top: 40px;
+    right: 80px;
+    font-size: 25px;
+    color: #a5a5a5;
+}
+
+.topbar .login p a {
+    color: #666666;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.register {
+    width: 500px;
+    height: 500px;
+    margin: 30px auto;
+}
+
+.register h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.register p {
+    border: 1px solid #333;
+    line-height: 30px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 500px;
+    text-align: start;
+}
+
+.register form p>label {
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+    position: relative;
+    margin-left: 7px;
+}
+
+.register form p>.input {
+    text-indent: 50px;
+    outline-style: none;
+    font-size: 15px;
+    border: none;
+    width: 300px;
+}
+
+.register .sub {
+    border: 1px solid #ff6700;
+    /* margin-left: auto; */
+    background-color: #ff6700;
+    color: white;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    margin-left: 20%;
+}
+
+input::-webkit-input-placeholder {
+    /* placeholder颜色  */
+    color: #aab2bd;
+    /* placeholder字体大小  */
+    font-size: 15px;
+    /* placeholder位置  */
+    text-align: center;
+}
+
+.error:first-child {
+    background-color: white;
+}
+
+.error:last-child {
+    color: red;
+    font-size: 12px;
+}
